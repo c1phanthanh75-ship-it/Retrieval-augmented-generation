@@ -1,0 +1,39 @@
+# ============================================================
+# Advanced RAG Indexing Pipeline — Requirements
+# ============================================================
+
+# --- Core AI / LLM ---
+ollama>=0.2.0            # Llama 3 local inference client
+
+# --- OCR ---
+paddlepaddle>=2.6.0      # PaddlePaddle backend (CPU)
+# paddlepaddle-gpu>=2.6.0  # Uncomment for GPU
+paddleocr>=2.8.0         # PP-OCRv4 + PP-Structure
+
+# --- LaTeX ---
+pix2tex[gui]>=0.1.2      # Formula image → LaTeX OCR
+sympy>=1.12              # Symbolic math simplification
+
+# --- ColBERT ---
+ragatouille>=0.0.8        # ColBERT v2 / PLAID engine wrapper
+
+# --- Vector Store ---
+qdrant-client>=1.9.0     # Dense vector store
+
+# --- BM25 ---
+rank-bm25>=0.2.2         # Sparse keyword retrieval
+
+# --- PDF / Image processing ---
+pymupdf>=1.24.0          # PDF → image rendering (fitz)
+Pillow>=10.0.0           # Image processing
+opencv-python>=4.9.0     # Image manipulation
+numpy>=1.26.0
+
+# --- Text processing ---
+tiktoken>=0.7.0          # Token counting (OpenAI compatible)
+httpx>=0.27.0            # Async HTTP client
+
+# --- Utilities ---
+tqdm>=4.66.0             # Progress bars
+pydantic>=2.0.0          # Data validation (optional)
+python-dotenv>=1.0.0     # .env config loading

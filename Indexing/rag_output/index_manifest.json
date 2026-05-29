@@ -1,0 +1,25 @@
+{
+  "total_documents": 2,
+  "total_chunks": 2003,
+  "documents": [
+    {
+      "doc_id": "Balanis_Teoriya_Antenn",
+      "source": "C:\\Users\\Admin\\Downloads\\Balanis_Teoriya_Antenn.pdf",
+      "pages": 1095,
+      "chunks": 1646,
+      "formulas": 0,
+      "tables": 214,
+      "processing_time_s": 2344.14
+    },
+    {
+      "doc_id": "RP_E9788792982032",
+      "source": "(recovered from ChromaDB)",
+      "pages": "?",
+      "chunks": 357,
+      "formulas": 0,
+      "tables": 0,
+      "processing_time_s": 0,
+      "indexed_at": "recovered"
+    }
+  ]
+}
